@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form-head{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.sub-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:#4d918c;
+    padding: 15px;
+}
+input{
+    outline: none;
+    border: 1px solid black;
+    padding: 5px;
+}
+input:hover{
+    outline: none;
+    border: none;
+}
+form, .form-h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.form-h2{
+    margin-bottom: 10px;
+}
+.form-button{
+    margin: 10;
+}
+.form-btn{
+    padding: 7px;
+    background-color: #0771de;
+    font-size: 0.8rem;
+    font-weight: 800;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+    border: 1px solid #789beb;
+}
+.form-label{
+    font-weight: 600;
+}
+.form-name{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.form-email{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.form-phone{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.form-password{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.form-redirect{
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
+form{
+    margin: 10px auto;
+}
+
+li a {
+    text-decoration: none;
+    color: #34eb49;
+    font-size: 1.4rem;
+
+    font-family: 'Bebas Neue', cursive;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #34eba4;
+    font-size: 1.35rem;
+    text-decoration: underline;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* margin: auto 40px; */
+}
+
+li {
+    list-style: none;
+    padding: 20px;
+}
+
+nav {
+    background-color: #edf0ed;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.nav-toggle {
+    display: none;
+}
